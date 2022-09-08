@@ -1,0 +1,395 @@
+{
+    "_comment": "if you change this file, do: yarn i18",
+    "common": {
+        "loadMore": "ngarko më tepër",
+        "loading": "duke ngarkuar...",
+        "noUsersFound": "no users found",
+        "ok": "ok",
+        "yes": "po",
+        "no": "jo",
+        "cancel": "anullo",
+        "save": "shpëto",
+        "edit": "redakto",
+        "delete": "fshij",
+        "joinRoom": "bashkohu dhomës",
+        "copyLink": "kopjo linkun",
+        "copied": "u kopjua",
+        "formattedIntlDate": "{{date, intlDate}}",
+        "formattedIntlTime": "{{time, intlTime}}",
+        "requestPermissions": "Please note running DogeHouse without accessibility permissions may cause unwanted errors",
+        "copy": "Copy",
+        "error": "Error"
+    },
+    "header": {
+        "_comment": "Main Header UI Internationalization Strings",
+        "title": "DogeHouse",
+        "mutedTitle": "I heshtur | DogeHouse",
+        "deafenedTitle": "Deafened | DogeHouse",
+        "dashboard": "Dashboard",
+        "connectionTaken": "Connection Taken"
+    },
+    "footer": {
+        "_comment": "Main Footer UI Internationalization Strings",
+        "link_1": "Historia e origjinës",
+        "link_2": "Discord",
+        "link_3": "Raporto problem"
+    },
+    "pages": {
+        "_comment": "Respective Page UI Internationalization Strings",
+        "admin": {
+            "ban": "përjashto",
+            "userStaffandContrib": "User Staff & Contributions",
+            "staff": "Staff: ",
+            "contributions": "Contributions",
+            "username": "Username",
+            "usrStaff": "User Staff",
+            "usrContributions": "User Contributions",
+            "reason": "reason",
+            "usernamePlaceholder": "username to perform actions on"
+        },
+        "followingOnlineList": {
+            "listHeader": "Lista e përdoruesve që nuk janë në një dhomë private dhe ti i ndjek.",
+            "currentRoom": "për momentin në:",
+            "startPrivateRoom": "fillo një dhomë private me ta",
+            "title": "People"
+        },
+        "followList": {
+            "followHim": "follow",
+            "followingHim": "following",
+            "title": "People",
+            "followingNone": "Not following anyone",
+            "noFollowers": "No followers"
+        },
+        "home": {
+            "createRoom": "Krijo dhomë",
+            "refresh": "Refresh",
+            "editRoom": "Edit Room",
+            "desktopAlert": "Download the DogeHouse desktop app today!"
+        },
+        "inviteList": {
+            "roomGone": "dhoma u zhduk, kthehu",
+            "shareRoomLink": "nda një link për te dhoma",
+            "inviteFollowers": "Mund të ftosh ndjekësit e tu që janë online:",
+            "whenFollowersOnline": "Kur ndjekësit e tu janë online, ata do të shaqen këtu lartë."
+        },
+        "login": {
+            "headerText": "Sjellim bisedat me zë në hënë 🚀",
+            "featureText_1": "Tema e errët",
+            "featureText_2": "Hap regjistrimet",
+            "featureText_3": "Mështetje Cross-Platform",
+            "featureText_4": "Open Source",
+            "featureText_5": "Chat me tekst",
+            "featureText_6": "Mundësuar nga Doge",
+            "loginGithub": "hyrje me GitHub",
+            "loginTwitter": "hyrje me Twitter",
+            "createTestUser": "krijo pëdorues testi",
+            "loginDiscord": "Login with Discord"
+        },
+        "myProfile": {
+            "logout": "dil",
+            "probablyLoading": "ndoshta duke u ngarkuar...",
+            "voiceSettings": "shko te cilësimet e zërit",
+            "soundSettings": "shko te cilësimet e tingullit",
+            "deleteAccount": "fshije llogarinë",
+            "overlaySettings": "go to overlay settings",
+            "couldNotFindUser": "Sorry, we could not find that user",
+            "privacySettings": "Privacy settings"
+        },
+        "notFound": {
+            "whoopsError": "Whoops! Kjo faqja humbi në bisedë.",
+            "goHomeMessage": "Mos ki merak. Ti mundesh",
+            "goHomeLinkText": "për në shtëpi"
+        },
+        "room": {
+            "speakers": "Folësit",
+            "requestingToSpeak": "Duke kërkuar leje për të folur",
+            "listeners": "Dëgjuesit",
+            "allowAll": "Allow all",
+            "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
+        },
+        "searchUser": { "search": "kerko..." },
+        "soundEffectSettings": {
+            "header": "Tingujt",
+            "title": "Sound Settings",
+            "playSound": "Play Sound"
+        },
+        "viewUser": {
+            "editProfile": "redakto profilin",
+            "followsYou": "ju ndjek",
+            "followers": "ndjekës",
+            "following": "ju ndjekin",
+            "followHim": "follow",
+            "followingHim": "following",
+            "copyProfileUrl": "copy profile url",
+            "urlCopied": "URL copied to clipboard",
+            "unfollow": "Unfollow",
+            "about": "About",
+            "bot": "Bot",
+            "profileTabs": {
+                "about": "About",
+                "rooms": "Rooms",
+                "scheduled": "Scheduled",
+                "recorded": "Recorded",
+                "clips": "Clips",
+                "admin": "Admin"
+            },
+            "block": "Block",
+            "unblock": "Unblock",
+            "sendDM": "Send DM",
+            "aboutSuffix": "",
+            "errors": {
+                "blocked": "This user has blocked you.",
+                "default": "Whoops! We couldn't load this user."
+            }
+        },
+        "voiceSettings": {
+            "header": "Cilësime e zërit",
+            "mic": "mikrofoni:",
+            "permissionError": "nuk u gjend asnjë mikrofon, ju ndoshta nuk e keni lidhur ose nuk i keni dhënë leje kesaj faqeje.",
+            "refresh": "rifresko listën e mikrofonëve",
+            "volume": "volumi:",
+            "title": "Voice Settings"
+        },
+        "overlaySettings": {
+            "input": {
+                "errorMsg": "Invalid app title",
+                "label": "Enter App Title"
+            },
+            "header": "Overlay Settings"
+        },
+        "download": {
+            "starting": "Starting download...",
+            "failed": "Could not auto-download, please try again later",
+            "visit_gh": "Visit Github Releases",
+            "prompt": "Click on the button below to start download",
+            "download_now": "Download Now",
+            "download_for": "Download for %platform% (%ext%)"
+        },
+        "privacySettings": {
+            "title": "Privacy Settings",
+            "header": "Privacy Settings",
+            "whispers": { "label": "Whispers", "on": "On", "off": "Off" }
+        },
+        "botEdit": {
+            "yourBots": "Your Bots",
+            "bots": "Bots",
+            "title": "Bot Information",
+            "apiKey": "ApiKey",
+            "regenerate": "Regenerate",
+            "reveal": "Click to reveal ApiKey"
+        }
+    },
+    "components": {
+        "_comment": "Component UI Internationalization Strings",
+        "avatar": {},
+        "backBar": {},
+        "blockedFromRoomUsers": {
+            "header": "Përdoruesit e përjashtuar",
+            "unban": "ç'përjashto",
+            "noBans": "askush nuk është përjashtuar derimë tani"
+        },
+        "bottomVoiceControl": {
+            "leaveCurrentRoomBtn": "Largohu nga dhoma e tanishme",
+            "confirmLeaveRoom": "A jeni i sigurt që do të largohesh?",
+            "leave": "Largohu",
+            "inviteUsersToRoomBtn": "Fto përdorues në dhomë",
+            "invite": "Fto",
+            "toggleMuteMicBtn": "Hesht/ç'hesht mikrofonin",
+            "mute": "Hesht",
+            "unmute": "Ç'hesht",
+            "makeRoomPublicBtn": "Bëje dhomën publike!",
+            "settings": "Cilësimet",
+            "speaker": "Folësit",
+            "listener": "Dëgjuesit",
+            "chat": "Chat",
+            "toggleDeafMicBtn": "Toggle Deafen",
+            "deafen": "Deafen",
+            "undeafen": "Undeafen"
+        },
+        "deviceNotSupported": {
+            "notSupported": "Paisja juaj nuk është e mbështetur. Ju mund të krijoni një",
+            "linkText": "çështje në GitHub",
+            "addSupport": "dhe unë do të mundohem të shtoj mbështetje për paisjen tuaj."
+        },
+        "inviteButton": { "invited": "ftuar", "inviteToRoom": "fto në dhomë" },
+        "micPermissionBanner": {
+            "permissionDenied": "Leja për akses te mikrofoni nuk u dha (ju mund të shkoni në cilësimet e shfletuesit dhe ringarkoni faqen)",
+            "dismiss": "largo",
+            "tryAgain": "provo persëri"
+        },
+        "keyboardShortcuts": {
+            "setKeybind": "vendos keybind",
+            "listening": "duke dëgjuar",
+            "toggleMuteKeybind": "Keybind hesht/ç'hesht",
+            "togglePushToTalkKeybind": "Keybind ndiz/fik shtyp-për-të-folur",
+            "toggleOverlayKeybind": "toggle overlay keybind",
+            "toggleDeafKeybind": "Toggle deafen keybind"
+        },
+        "userVolumeSlider": {
+            "noAudioMessage": "për ndonjë arsye nuk ka asnje konsumator audio"
+        },
+        "addToCalendar": { "add": "Shto në kalendar" },
+        "wsKilled": {
+            "description": "WebSocketi u ndalua nga serveri. Kjo ndodh zakonisht kur hap një faqe të re në skedinë tjetër.",
+            "reconnect": "ri-lidhu"
+        },
+        "modals": {
+            "createRoomModal": {
+                "public": "publike",
+                "private": "private",
+                "roomName": "emri dhomës",
+                "roomDescription": "përshkrimi i dhomës",
+                "descriptionError": "gjatësia maks. 500",
+                "nameError": "duhet të jetë midis 2 dhe 60 shkronjash",
+                "subtitle": "Fill the following fields to start a new room"
+            },
+            "invitedToJoinRoomModal": {
+                "newRoomCreated": "Dhoma e re u krijua",
+                "roomInviteFrom": "Ftes dhome nga",
+                "justStarted": "Ata sapo filluan",
+                "likeToJoin": ", a dëshironi të bashkoheni?",
+                "inviteReceived": "ju jeni ftuar në"
+            },
+            "editProfileModal": {
+                "usernameTaken": "emri i përdoruesit është i zënë",
+                "avatarUrlError": "Fotografi e pavlefshme",
+                "avatarUrlLabel": "url i avatarit të Github/Twitter/Discord",
+                "displayNameError": "gjatësia 2 deri 50 shkronja",
+                "displayNameLabel": "Emri i Shfaqur",
+                "usernameError": "gjatësia 4 deri 15 shkronja dhe vetëm alphanumerik/nevizim",
+                "usernameLabel": "Emri i përdoruesit",
+                "bioError": "gjatesia maks 160 shkronja",
+                "bioLabel": "Bio",
+                "bannerUrlLabel": "Twitter banner URL"
+            },
+            "profileModal": {
+                "blockUserConfirm": "A jeni të sigurt që doni të bllokoni këtë perdoruest për t'iu bashkuar dhomave qe ju krijoni?",
+                "blockUser": "blloko përdorues",
+                "makeMod": "krijo mod",
+                "unmod": "ç'modo",
+                "addAsSpeaker": "shto si folës",
+                "moveToListener": "lëvize si dëgjues",
+                "banFromChat": "ndalo prej chatit",
+                "banFromRoom": "ndalo prej dhomës",
+                "goBackToListener": "kthenu në dëgjues",
+                "deleteMessage": "fshije këtë mesazh",
+                "makeRoomCreator": "make room admin",
+                "unBanFromChat": "Unban from Chat",
+                "banIPFromRoom": "Ban IP from Room"
+            },
+            "roomSettingsModal": {
+                "requirePermission": "kërko leje për të folur",
+                "makePublic": "bëje dhomën publike",
+                "makePrivate": "bëje dhomën private",
+                "renamePublic": "Set public room name",
+                "renamePrivate": "Set private room name",
+                "chatDisabled": "disable chat",
+                "chatCooldown": "Chat Cooldown (milliseconds)",
+                "chat": {
+                    "label": "Chat",
+                    "enabled": "Enabled",
+                    "disabled": "Disabled",
+                    "followerOnly": "Follower Only"
+                }
+            },
+            "createBotModal": {
+                "usernameTaken": "Username is taken",
+                "subtitle": "Please fill the details below to create your bot",
+                "title": "Create Bot"
+            }
+        },
+        "followingOnline": {
+            "people": "People",
+            "online": "ONLINE",
+            "noOnline": "You have 0 friends online right now",
+            "showMore": "Show more"
+        },
+        "upcomingRoomsCard": {
+            "upcomingRooms": "Upcoming rooms",
+            "exploreMoreRooms": "Explore More Rooms"
+        },
+        "search": {
+            "placeholder": "Search for rooms, users or categories",
+            "placeholderShort": "Search"
+        },
+        "settingsDropdown": {
+            "profile": "Profile",
+            "language": "Language",
+            "reportABug": "Report A Bug",
+            "useOldVersion": "Use Old Version",
+            "logOut": {
+                "button": "Log out",
+                "modalSubtitle": "Are you sure you want to logout?"
+            },
+            "debugAudio": {
+                "debugAudio": "Debug Audio",
+                "stopDebugger": "Stop Debugger"
+            },
+            "downloadApp": "Download App",
+            "developer": "Developer Settings"
+        },
+        "userBadges": {
+            "dhStaff": "DogeHouse Staff",
+            "dhContributor": "DogeHouse Contributor"
+        },
+        "messagesDropdown": {
+            "title": "Messages",
+            "showMore": "Show More",
+            "noMessages": "No new messages"
+        }
+    },
+    "modules": {
+        "_comment": "Modules UI Internationalization Strings",
+        "scheduledRooms": {
+            "title": "Dhomat e planifikuara",
+            "noneFound": "asnjë s'u gjend",
+            "allRooms": "të gjitha dhomat e planifikuara",
+            "myRooms": "dhomat e mija",
+            "scheduleRoomHeader": "Planifiko dhomë",
+            "startRoom": "fillo dhomën",
+            "modal": {
+                "needsFuture": "duhet të jetë në të ardhmen",
+                "roomName": "emri i dhomës",
+                "minLength": "gjatesia minimale 2",
+                "roomDescription": "Description"
+            },
+            "tommorow": "TOMMOROW",
+            "today": "TODAY",
+            "deleteModal": {
+                "areYouSure": "Are you sure you want to delete this scheduled room?"
+            }
+        },
+        "roomChat": {
+            "title": "Chat",
+            "emotesSoon": "[emotes së shpejti]",
+            "bannedAlert": "Ju jeni ndaluar prej chatit",
+            "waitAlert": "Duhet të prisni një sekondë para se të dergoni një mesazh tjetër.",
+            "search": "Kërko",
+            "searchResults": "Kërko Rezultate",
+            "recent": "Përdorur shpesh",
+            "sendMessage": "Dërgo një mesazh",
+            "whisper": "Përshpërit",
+            "welcomeMessage": "Mirë se erdhët në chat!",
+            "roomDescription": "përshkrimi i dhomës",
+            "disabled": "room chat has been disabled",
+            "messageDeletion": {
+                "message": "message",
+                "retracted": "retracted",
+                "deleted": "deleted"
+            }
+        },
+        "roomStatus": {
+            "fuelingRocket": "Fueling rocket",
+            "takingOff": "Taking off",
+            "inSpace": "In space",
+            "approachingMoon": "Approaching moon",
+            "lunarDoge": "Lunar doge",
+            "approachingSun": "Approaching sun",
+            "solarDoge": "Solar doge",
+            "approachingGalaxy": "Approaching galaxy",
+            "galacticDoge": "Galactic Doge",
+            "spottedLife": "Planet with life spotted"
+        },
+        "feed": { "yourFeed": "Your Feed" }
+    }
+}

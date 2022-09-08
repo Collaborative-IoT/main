@@ -1,0 +1,399 @@
+{
+    "common": {
+        "loadMore": "Továbbiak betöltése",
+        "loading": "Töltés...",
+        "noUsersFound": "Nem található felhasználó!",
+        "ok": "Ok",
+        "yes": "Igen",
+        "no": "Nem",
+        "cancel": "Mégse",
+        "save": "Mentés",
+        "edit": "Szerkesztés",
+        "delete": "Törlés",
+        "joinRoom": "Csatlakozás",
+        "copyLink": "Link másolása",
+        "copied": "Kimásolva!",
+        "formattedIntlDate": "{{date, intlDate}}",
+        "formattedIntlTime": "{{time, intlTime}}",
+        "requestPermissions": "Figyelem, a DogeHouse kisegítő lehetőségek nélküli futtatása nem kívánt hibákat okozhat",
+        "copy": "Másolás",
+        "error": "Hiba"
+    },
+    "header": {
+        "_comment": "Main Header UI Internationalization Strings",
+        "title": "DogeHouse",
+        "mutedTitle": "Némítva | DogeHouse",
+        "deafenedTitle": "Süketítve | DogeHouse",
+        "dashboard": "Home",
+        "connectionTaken": "Kapcsolat megszakítva"
+    },
+    "footer": {
+        "link_1": "Története",
+        "link_2": "Discord",
+        "link_3": "Hiba jelentése"
+    },
+    "pages": {
+        "_comment": "Respective Page UI Internationalization Strings",
+        "admin": {
+            "ban": "ban",
+            "userStaffandContrib": "Staff & Hozzájáruló felhasználók",
+            "staff": "Staff: ",
+            "contributions": "hozzájárulás",
+            "username": "Felhasználónév",
+            "usrStaff": "Staff felhasználó",
+            "usrContributions": "DogeHouse hozzájáruló",
+            "reason": "oka",
+            "usernamePlaceholder": "felhasználónév a műveletek végrehajtásához"
+        },
+        "followingOnlineList": {
+            "listHeader": "Követett felhasználók nyilvános szobában.",
+            "currentRoom": "Jelenleg itt:",
+            "startPrivateRoom": "Privát szoba létrehozása velük",
+            "title": "Felhasználok"
+        },
+        "followList": {
+            "followHim": "Követés",
+            "followingHim": "Követve",
+            "title": "Felhasználók",
+            "followingNone": "Nem követ senkit",
+            "noFollowers": "Nincsenek követők"
+        },
+        "home": {
+            "createRoom": "Szoba létrehozása",
+            "refresh": "Frissítés",
+            "editRoom": "Szoba szerkesztése",
+            "desktopAlert": "Töltse le a DogeHouse asztali alkalmazást még ma!"
+        },
+        "inviteList": {
+            "roomGone": "A beszélgetés véget ért",
+            "shareRoomLink": "Szoba linkjének megosztása",
+            "inviteFollowers": "Meghívhatja jelenleg online követőit:",
+            "whenFollowersOnline": "Online követőid itt fognak megjelenni."
+        },
+        "login": {
+            "headerText": " Hangbeszélgetéseket a Holdra 🚀",
+            "featureText_1": "Sötét Téma",
+            "featureText_2": "Nyitott regisztrációk",
+            "featureText_3": "Platformok közötti támogatás",
+            "featureText_4": "Nyílt forráskód",
+            "featureText_5": "Chat",
+            "featureText_6": "Powered by Doge",
+            "loginGithub": "Bejelentkezés GitHub fiókkal",
+            "loginTwitter": "Bejelentkezés Twitter fiókkal",
+            "createTestUser": "Teszt felhasználó létrehozása",
+            "loginDiscord": "Bejelentkezés Discord fiókkal"
+        },
+        "myProfile": {
+            "logout": "Kijelentkezés",
+            "probablyLoading": "Valószínüleg tölt...",
+            "voiceSettings": "Hangbeállítások",
+            "soundSettings": "Hanghatások",
+            "deleteAccount": "Fiók törlése",
+            "overlaySettings": "Átfedés beállítások megnyitása",
+            "couldNotFindUser": "Sajnáljuk, a felhasználó nem található",
+            "privacySettings": "Személyes tér beállításai"
+        },
+        "notFound": {
+            "whoopsError": "Whoops! Ez az oldal elveszett a beszélgetésben.",
+            "goHomeMessage": "Ne aggódjon. Vissza tud lépni a",
+            "goHomeLinkText": "főoldalra"
+        },
+        "room": {
+            "speakers": "Beszélők",
+            "requestingToSpeak": "Beszélő jog kérése",
+            "listeners": "Hallgatók",
+            "allowAll": "Mindegyik engedélyezése",
+            "allowAllConfirm": "Biztos benne? Ezzel engedélyezi mind a {{count}} felhasználónak, hogy beszéljen"
+        },
+        "searchUser": { "search": "keresés..." },
+        "soundEffectSettings": {
+            "header": "Hangok",
+            "title": "Hangbeállítások",
+            "playSound": "Hang lejátszása"
+        },
+        "viewUser": {
+            "editProfile": "Fiók szerkesztése",
+            "followsYou": "Követ téged",
+            "followers": "követő",
+            "following": "követés",
+            "followHim": "Követés",
+            "followingHim": "Követve",
+            "copyProfileUrl": "Fiók URL címének másolása",
+            "urlCopied": "URL cím kimásolva a vágólapra",
+            "unfollow": "Követés megszűntetése",
+            "about": "",
+            "aboutSuffix": "névjegye",
+            "bot": "Bot",
+            "profileTabs": {
+                "about": "Névjegy",
+                "rooms": "Szobák",
+                "scheduled": "Ütemzett",
+                "recorded": "Felvett",
+                "clips": "Klippek",
+                "admin": "Admin"
+            },
+            "block": "Leiltás",
+            "unblock": "Tiltás feloldása",
+            "sendDM": "Üzenet küldése",
+            "errors": {
+                "blocked": "This user has blocked you.",
+                "default": "Whoops! We couldn't load this user."
+            }
+        },
+        "voiceSettings": {
+            "header": "Hangbeállítások",
+            "mic": "Mikrofon:",
+            "permissionError": "Nem található mikrofon. Vagy nincs csatlakoztatva, vagy nem adta meg az engedélyt.",
+            "refresh": "Elérhető mikrofonok frissítése",
+            "volume": "Hangerő:",
+            "title": "Hangbeállítások"
+        },
+        "overlaySettings": {
+            "input": {
+                "errorMsg": "Invalid app title",
+                "label": "Enter App Title"
+            },
+            "header": "Átfedés beállítások"
+        },
+        "download": {
+            "starting": "Letöltés elkezdve...",
+            "failed": "Could not auto-download, please try again later",
+            "visit_gh": "GitHub kiadások megtekintése",
+            "prompt": "A gombra kattintva elkezdheti a letöltést",
+            "download_now": "Letöltés",
+            "download_for": "Letöltés %platform%-ra (%ext%)"
+        },
+        "privacySettings": {
+            "title": "Személyes tér beállításai",
+            "header": "Személyes tér",
+            "whispers": {
+                "label": "Suttogó üzenetek",
+                "on": "Bekapcsolva",
+                "off": "Kikapcsolva"
+            }
+        },
+        "botEdit": {
+            "yourBots": "Bot fiókjaid",
+            "bots": "Botok",
+            "title": "Bot Information",
+            "apiKey": "Api kulcs",
+            "regenerate": "Újragenerálás",
+            "reveal": "Kattintson az api kulcs megjelenítéséhez"
+        }
+    },
+    "components": {
+        "_comment": "Component UI Internationalization Strings",
+        "avatar": {},
+        "backBar": {},
+        "blockedFromRoomUsers": {
+            "header": "Kitiltott felhasználók",
+            "unban": "Kitiltás visszavonása",
+            "noBans": "Senki nem lett még kitiltva"
+        },
+        "bottomVoiceControl": {
+            "leaveCurrentRoomBtn": "Kilépés a szobából",
+            "confirmLeaveRoom": "Biztosan ki szeretne lépni?",
+            "leave": "Kilépés",
+            "inviteUsersToRoomBtn": "Felhasználók meghívása a szobába",
+            "invite": "Meghívás",
+            "toggleMuteMicBtn": "Mikrofon",
+            "mute": "Némítás",
+            "unmute": "Némítás feloldása",
+            "makeRoomPublicBtn": "Szoba publikussá állítása!",
+            "settings": "Beállítások",
+            "speaker": "Beszélők",
+            "listener": "Hallgatók",
+            "chat": "Chat",
+            "toggleDeafMicBtn": "Süketítés",
+            "deafen": "Süketítés",
+            "undeafen": "Süketítés visszavonása"
+        },
+        "micPermissionBanner": {
+            "permissionDenied": "A mikrofonhoz való hozzáférést megtagadták (lehet, hogy be kell lépnie a böngészőbeállításaiba és újra be kell töltenie az oldalt)",
+            "dismiss": "Elutasítás",
+            "tryAgain": "Próbálja újra"
+        },
+        "modals": {
+            "createRoomModal": {
+                "public": "Publikus",
+                "private": "Privát",
+                "roomName": "Szoba neve",
+                "roomDescription": "Szoba leírása",
+                "descriptionError": "Maximum 500 karakter",
+                "nameError": "Minimum 2, maximum 60 karakter",
+                "subtitle": "Töltse ki a mezőket a szoba létrehozásához"
+            },
+            "invitedToJoinRoomModal": {
+                "newRoomCreated": "Új szoba létrehozva",
+                "roomInviteFrom": "Meghívás tőle:",
+                "justStarted": "Éppen most kezdenek",
+                "likeToJoin": ", Szeretne csatlakozni?",
+                "inviteReceived": "Meghívtak ide:"
+            },
+            "editProfileModal": {
+                "usernameTaken": "Foglalt felhasználónév",
+                "avatarUrlError": "Helytelen kép",
+                "avatarUrlLabel": "Github/Twitter/Discord profilkép URL címe",
+                "displayNameError": "Minimum 2, maximum 50 karakter",
+                "displayNameLabel": "Megjelenített név",
+                "usernameError": "Minimum 4, maximum 15 karakter, csak alfanumerikus és aláhúzás",
+                "usernameLabel": "Felhasználónév",
+                "bioError": "Maximum 160 karakter",
+                "bioLabel": "Bio",
+                "bannerUrlLabel": "Twitter borítókép URL címe"
+            },
+            "profileModal": {
+                "blockUserConfirm": "Biztosan tiltaná a felhasználót a szobához való csatlakozástól?",
+                "blockUser": "Felhasználó letiltása",
+                "makeMod": "Előreléptetés moderátorrá",
+                "unmod": "Visszaléptetés hallgatóvá",
+                "addAsSpeaker": "Beszélőkhöz adás",
+                "moveToListener": "Visszaléptetés hallgatóvá",
+                "banFromChat": "Kitiltás a chatről",
+                "banFromRoom": "Kitiltás a szobából",
+                "goBackToListener": "Visszalépés hallgatóvá",
+                "deleteMessage": "Üzenet törlése",
+                "makeRoomCreator": "Előreléptetés tulajdonossá",
+                "unBanFromChat": "Szoba kitiltás visszavonása",
+                "banIPFromRoom": "IP cím bannolása a szobából"
+            },
+            "roomSettingsModal": {
+                "requirePermission": "Beszélői engedélyre van szükség",
+                "makePublic": "Szoba publikussá állítása",
+                "makePrivate": "Szoba priváttá állítása",
+                "renamePublic": "Szoba publikus nevének beállítása",
+                "renamePrivate": "Szoba privát nevének beállítása",
+                "chatDisabled": "Chat kikapcsolása",
+                "chatCooldown": "Chat Cooldown (milliseconds)",
+                "chat": {
+                    "label": "Chat",
+                    "enabled": "Bekapcsolva",
+                    "disabled": "Kikapcsolva",
+                    "followerOnly": "Csak követők"
+                }
+            },
+            "createBotModal": {
+                "usernameTaken": "Username is taken",
+                "subtitle": "Please fill the details below to create your bot",
+                "title": "Create Bot"
+            }
+        },
+        "userVolumeSlider": {
+            "noAudioMessage": "Valamilyen okból nincs hallgató"
+        },
+        "addToCalendar": { "add": "Felvétel naptárba" },
+        "keyboardShortcuts": {
+            "setKeybind": "Gyorsbillentyű beállítása",
+            "listening": "Hallgatás...",
+            "toggleMuteKeybind": "Némítás",
+            "togglePushToTalkKeybind": "Push-to-talk",
+            "toggleOverlayKeybind": "Átfedés gyorsgomb",
+            "toggleDeafKeybind": "Süketítés gyorsgomb"
+        },
+        "wsKilled": {
+            "description": "A Websocket kapcsolatot megszakította a szerver. Ez általában akkor fordul elő, amikor több fülön meg van nyitva a weboldal.",
+            "reconnect": "Újracsatlakozás"
+        },
+        "deviceNotSupported": {
+            "notSupported": "Az eszköze jelenleg nem támogatott. Létrehozhat egy",
+            "linkText": "hibát",
+            "addSupport": "GitHubon, és megpróbáljuk biztosítani eszköze támogatottságát."
+        },
+        "inviteButton": {
+            "invited": "Meghívott",
+            "inviteToRoom": "Meghívás szobába"
+        },
+        "followingOnline": {
+            "people": "Felhasználok",
+            "online": "ONLINE",
+            "noOnline": "Jelenleg nincsenek online barátai",
+            "showMore": "Továbbiak"
+        },
+        "upcomingRoomsCard": {
+            "upcomingRooms": "Ütemzett szobák",
+            "exploreMoreRooms": "További szobák felfedezése"
+        },
+        "search": {
+            "placeholder": "Kereshet szobákat, felhasználókat vagy kategóriákat",
+            "placeholderShort": "Keresés"
+        },
+        "settingsDropdown": {
+            "profile": "Profil",
+            "language": "Nyelv",
+            "reportABug": "Hiba jelentése",
+            "useOldVersion": "Régi verzió",
+            "logOut": {
+                "button": "Kijelentkezés",
+                "modalSubtitle": "Biztosan kijelentkezne?"
+            },
+            "debugAudio": {
+                "debugAudio": "Audió hibakereső",
+                "stopDebugger": "Hibakereső leállítása"
+            },
+            "downloadApp": "App letöltése",
+            "developer": "Fejlesztői beállítások"
+        },
+        "userBadges": {
+            "dhStaff": "DogeHouse Staff",
+            "dhContributor": "DogeHouse Hozzájáruló"
+        },
+        "messagesDropdown": {
+            "title": "Üzenetek",
+            "showMore": "Több megjelenítése",
+            "noMessages": "Nincsenek új üzenetek"
+        }
+    },
+    "modules": {
+        "scheduledRooms": {
+            "title": "Ütemezett szobák",
+            "noneFound": "Szoba nem található",
+            "allRooms": "Összes ütemezett szoba",
+            "myRooms": "Ütemezett szobáim",
+            "scheduleRoomHeader": "Szoba ütemezése",
+            "startRoom": "Szoba indítása",
+            "modal": {
+                "needsFuture": "Jövőbeli dátum szükséges",
+                "roomName": "Szoba neve",
+                "minLength": "Minimum 2 karakter",
+                "roomDescription": "Leírás"
+            },
+            "tommorow": "HOLNAP",
+            "today": "MA",
+            "deleteModal": {
+                "areYouSure": "Biztosan törölné az ütemzett szobát?"
+            }
+        },
+        "roomChat": {
+            "title": "Chat",
+            "emotesSoon": "[emotikonok hamarosan]",
+            "bannedAlert": "Kitiltottak a beszélgetésből",
+            "waitAlert": "Várnod kell egy másodpercet a következő üzenet küldése előtt.",
+            "search": "Keresés",
+            "searchResults": "Keresés eredménye",
+            "recent": "Gyakran használt",
+            "sendMessage": "Üzenet küldése",
+            "whisper": "Privát üzenet",
+            "welcomeMessage": "Üdv a beszélgetésben!",
+            "roomDescription": "Szoba leírása",
+            "disabled": "Chat letiltva",
+            "messageDeletion": {
+                "message": "Üzenet",
+                "retracted": "visszavonva",
+                "deleted": "törölve"
+            }
+        },
+        "roomStatus": {
+            "fuelingRocket": "Rakéta feltöltése",
+            "takingOff": "Kilövés",
+            "inSpace": "Űrben",
+            "approachingMoon": "Hold megközelítése",
+            "lunarDoge": "Lunar doge",
+            "approachingSun": "Nap megközelítése",
+            "solarDoge": "Solar doge",
+            "approachingGalaxy": "Galaxis megközelítése",
+            "galacticDoge": "Galaktikus Doge",
+            "spottedLife": "Élhető bolygó felfedezve"
+        },
+        "feed": { "yourFeed": "Hírfolyamod" }
+    }
+}

@@ -1,0 +1,400 @@
+{
+    "_comment": "if you change this file, do: yarn i18",
+    "common": {
+        "loadMore": "Mehr laden",
+        "loading": "Lädt...",
+        "noUsersFound": "Keine Benutzer gefunden",
+        "ok": "Ok",
+        "yes": "Ja",
+        "no": "Nein",
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "joinRoom": "Raum beitreten",
+        "copyLink": "Link kopieren",
+        "copied": "kopiert",
+        "formattedIntlDate": "{{date, intlDate}}",
+        "formattedIntlTime": "{{time, intlTime}}",
+        "requestPermissions": "Bitte erteile DogeHouse Browserberechtigungen.",
+        "copy": "Kopieren",
+        "error": "Fehler"
+    },
+    "header": {
+        "_comment": "Main Header UI Internationalization Strings",
+        "title": "DogeHouse",
+        "mutedTitle": "Stumm | DogeHouse",
+        "deafenedTitle": "Lautsprecher stumm | DogeHouse",
+        "dashboard": "Dashboard",
+        "connectionTaken": "Verbindung getrennt"
+    },
+    "footer": {
+        "_comment": "Main Footer UI Internationalization Strings",
+        "link_1": "Ursprungsgeschichte",
+        "link_2": "Discord",
+        "link_3": "Problem melden"
+    },
+    "pages": {
+        "_comment": "Respective Page UI Internationalization Strings",
+        "admin": {
+            "ban": "blockieren",
+            "userStaffandContrib": "User Staff & Contributions",
+            "staff": "Staff: ",
+            "contributions": "Contributions",
+            "username": "Nutzername",
+            "usrStaff": "User Staff",
+            "usrContributions": "User Contributions",
+            "reason": "Grund",
+            "usernamePlaceholder": "Benutzername, für den Aktionen ausgeführt werden sollen"
+        },
+        "followingOnlineList": {
+            "listHeader": "Benutzer, denen du folgst, die nicht in einem privaten Raum sind.",
+            "currentRoom": "Zurzeit in:",
+            "startPrivateRoom": "Einen privaten Raum mit diesem Benutzer eröffnen",
+            "title": "People"
+        },
+        "followList": {
+            "followHim": "Folgen",
+            "followingHim": "Entfolgen",
+            "title": "People",
+            "followingNone": "Folgt keinem",
+            "noFollowers": "Keine Follower"
+        },
+        "home": {
+            "createRoom": "Raum erstellen",
+            "refresh": "Aktualisieren",
+            "editRoom": "Bearbeite Raum",
+            "desktopAlert": "Lade die DogeHouse Desktop-App noch heute herunter."
+        },
+        "inviteList": {
+            "roomGone": "Raum konnte nicht gefunden werden! Zurück",
+            "shareRoomLink": "Link zum Raum teilen",
+            "inviteFollowers": "Du kannst deine Abonnenten, die online sind, einladen:",
+            "whenFollowersOnline": "Wenn deine Abonnenten online sind, werden sie hier angezeigt."
+        },
+        "login": {
+            "headerText": "Wir bringen den Sprachchat zum Mond",
+            "featureText_1": "Dark-Mode",
+            "featureText_2": "Unbeschränkte Registrierung",
+            "featureText_3": "Plattformunabhängig",
+            "featureText_4": "Open-Source",
+            "featureText_5": "Text-Chat",
+            "featureText_6": "Angetrieben durch Doge",
+            "loginGithub": "mit GitHub anmelden",
+            "loginTwitter": "mit Twitter anmelden",
+            "createTestUser": "Testnutzer erstellen",
+            "loginDiscord": "mit Discord anmelden"
+        },
+        "myProfile": {
+            "logout": "Abmelden",
+            "probablyLoading": "Lädt vermutlich...",
+            "voiceSettings": "Spracheinstellungen",
+            "soundSettings": "Soundeinstellungen",
+            "deleteAccount": "Konto löschen",
+            "overlaySettings": "Overlay-Einstellungen löschen",
+            "couldNotFindUser": "Wir konnten diesen Benutzer leider nicht finden. ",
+            "privacySettings": "Privacy Settings"
+        },
+        "notFound": {
+            "whoopsError": "Hoppla! Diese Seite ging im Gespräch verloren.",
+            "goHomeMessage": "Keine Sorge. Du kannst",
+            "goHomeLinkText": "nach Hause"
+        },
+        "room": {
+            "speakers": "Sprecher",
+            "requestingToSpeak": "Sprachanfragen",
+            "listeners": "Zuhörer",
+            "allowAll": "Alle zulassen",
+            "allowAllConfirm": "Bist du sicher? Damit erteilst du {{count}} Benutzern Redeberechtigungen."
+        },
+        "searchUser": { "search": "Suchen..." },
+        "soundEffectSettings": {
+            "header": "Ton",
+            "title": "Toneinstellungen",
+            "playSound": "Play Sound"
+        },
+        "viewUser": {
+            "editProfile": "Profil bearbeiten",
+            "followsYou": "Folgt dir",
+            "following": "Abonniert",
+            "followers": "Abonnenten",
+            "followHim": "Folgen",
+            "followingHim": "Folgt bereits",
+            "copyProfileUrl": "Benutzer-URL kopieren",
+            "urlCopied": "URL wurde in die Zwischenablage kopiert",
+            "unfollow": "Entfolgen",
+            "about": "Über",
+            "bot": "Bot",
+            "profileTabs": {
+                "about": "Über",
+                "rooms": "Räume",
+                "scheduled": "Geplant",
+                "recorded": "Aufgenommen",
+                "clips": "Clips",
+                "admin": "Admin"
+            },
+            "block": "Blockieren",
+            "unblock": "Freigeben",
+            "sendDM": "Sende Direktnachricht",
+            "aboutSuffix": "",
+            "errors": {
+                "blocked": "Dieser Nutzer hat dich blockiert.",
+                "default": "Hoppla! Wir konnten diesen Benutzer nicht laden."
+            }
+        },
+        "voiceSettings": {
+            "header": "Spracheinstellungen",
+            "mic": "Mikrofon:",
+            "permissionError": "Keine Mikrofone gefunden, es ist entweder keines angeschlosen oder diese Seite besitzt nicht die benötigten Berechtigungen.",
+            "volume": "Lautstärke:",
+            "refresh": "Mikrofonliste aktualisieren",
+            "title": "Voice Settings"
+        },
+        "overlaySettings": {
+            "input": {
+                "errorMsg": "Ungültiger App-Titel",
+                "label": "Gib den App-Titel ein"
+            },
+            "header": "Overlay Einstellungen",
+            "errorMsg": "Bitte gib einen gültigen App-Titel ein",
+            "label": "App-Titel eingeben"
+        },
+        "download": {
+            "starting": "Starte Download...",
+            "failed": "Konnte nicht automatisch herunterladen. Bitte versuche es später erneut. ",
+            "visit_gh": "Besuche Github Releases",
+            "prompt": "Drücke den Button unten, um den Download zu starten.",
+            "download_now": "Lade herunter",
+            "download_for": "Download für %platform% (%ext%)"
+        },
+        "privacySettings": {
+            "title": "Privatsphäre Einstellungen",
+            "header": "Privatsphäre Einstellungen",
+            "whispers": { "label": "Flüstern", "on": "An", "off": "Aus" }
+        },
+        "botEdit": {
+            "yourBots": "Deine Bots",
+            "bots": "Bots",
+            "title": "Bot Informationen",
+            "apiKey": "API-Key",
+            "regenerate": "Neugenerieren",
+            "reveal": "Klicke hier, um den API-Key anzuzeigen"
+        }
+    },
+    "components": {
+        "_comment": "Component UI Internationalization Strings",
+        "addToCalendar": { "add": "Zum Kalender hinzufügen" },
+        "avatar": {},
+        "backBar": {},
+        "blockedFromRoomUsers": {
+            "header": "Blockierte Benutzer",
+            "unban": "Blockierung aufheben",
+            "noBans": "Du hast aktuell (noch) niemanden blockiert"
+        },
+        "bottomVoiceControl": {
+            "leaveCurrentRoomBtn": "Aktuellen Raum verlassen",
+            "confirmLeaveRoom": "Bist du sicher, dass du gehen möchtest?",
+            "leave": "Verlassen",
+            "inviteUsersToRoomBtn": "Benutzer zum Raum einladen",
+            "invite": "Einladen",
+            "toggleMuteMicBtn": "Mikrofon ein-/ausschalten",
+            "mute": "Stumm schalten",
+            "unmute": "Stummschaltung aufheben",
+            "makeRoomPublicBtn": "Raum öffentlich machen!",
+            "settings": "Einstellungen",
+            "speaker": "Sprecher",
+            "listener": "Zuhörer",
+            "chat": "Chat",
+            "toggleDeafMicBtn": "Audioausgabe ein-/ausschalten",
+            "deafen": "Audioausgabe",
+            "undeafen": "Audioausgabe aufheben"
+        },
+        "micPermissionBanner": {
+            "permissionDenied": "Wir haben keinen Zugriff auf dein Mikrofon. Öffne deine Browsereinstellungen, setze die nötigen Berechtigungen und lade die Seite erneut.",
+            "dismiss": "Verstanden",
+            "tryAgain": "Erneut versuchen"
+        },
+        "modals": {
+            "createRoomModal": {
+                "public": "Öffentlich",
+                "private": "Privat",
+                "roomName": "Raumname",
+                "roomDescription": "Raumbeschreibung",
+                "descriptionError": "Die maximale Länge beträgt 500 Zeichen",
+                "nameError": "Muss zwischen 2 und 60 Zeichen lang sein",
+                "subtitle": "Fülle die folgenden Felder aus, um einen Raum zu erstellen"
+            },
+            "invitedToJoinRoomModal": {
+                "newRoomCreated": "Neuen Raum erstellt",
+                "roomInviteFrom": "Neue Einladung von",
+                "justStarted": "Sie starten gerade",
+                "likeToJoin": ", möchtest du beitreten?",
+                "inviteReceived": "Du wurdest eingeladen zu"
+            },
+            "editProfileModal": {
+                "usernameTaken": "Benutzername ist bereits vergeben",
+                "avatarUrlError": "Ungültiges Bild",
+                "avatarUrlLabel": "GitHub / Twitter Avatar URL",
+                "displayNameError": "Länge: 2 bis 50 Buchstaben",
+                "displayNameLabel": "Anzeigename",
+                "usernameError": "Länge: 4 bis 15 alphanumerische Zeichen und Unterstriche",
+                "usernameLabel": "Benutzername",
+                "bioError": "Maximal 160 Buchstaben",
+                "bioLabel": "Biografie",
+                "bannerUrlLabel": "Twitter Banner URL"
+            },
+            "profileModal": {
+                "blockUserConfirm": "Bist du sicher, dass du diesen Benutzer aus allen deinen zukünftigen Räumen ausschließen möchtest?",
+                "blockUser": "Benutzer blockieren",
+                "makeMod": "Zum Moderator befördern",
+                "unmod": "Moderator Status aufheben",
+                "addAsSpeaker": "Zu Sprecher befördern",
+                "moveToListener": "Zu Zuhörer herabstufen",
+                "banFromChat": "Im Chat blockieren",
+                "banFromRoom": "Aus Raum ausschließen",
+                "goBackToListener": "Zurück zum Zuhörer",
+                "deleteMessage": "Nachricht löschen",
+                "makeRoomCreator": "Zum Raumadmin befördern",
+                "unBanFromChat": "Vom Chat entbannen",
+                "banIPFromRoom": "IP aus Raum bannen"
+            },
+            "roomSettingsModal": {
+                "requirePermission": "Berechtigung zum Sprechen verlangen",
+                "makePublic": "Raum öffentlich machen",
+                "makePrivate": "Raum privat machen",
+                "renamePublic": "Öffentlichen Raum-Namen setzen",
+                "renamePrivate": "Privaten Raum-Namen setzen",
+                "chatDisabled": "Chat ausschalten",
+                "chatCooldown": "Chat Cooldown (milliseconds)",
+                "chat": {
+                    "label": "Chat",
+                    "enabled": "Aktiviert",
+                    "disabled": "Deaktiviert",
+                    "followerOnly": "Nur Abonnenten"
+                }
+            },
+            "createBotModal": {
+                "usernameTaken": "Nutzername ist bereits vergeben",
+                "subtitle": "Bitte fülle die angaben unten aus, um deinen Bot zu erstellen",
+                "title": "Bot Erstellen"
+            }
+        },
+        "userVolumeSlider": {
+            "noAudioMessage": "Aus unbekannten Gründen wurde kein Audio Consumer gefunden"
+        },
+        "keyboardShortcuts": {
+            "setKeybind": "Tastenkürzel setzen",
+            "listening": "Zuhören",
+            "toggleMuteKeybind": "Stummschalt-Tastenkürzel umschalten",
+            "togglePushToTalkKeybind": "Push-to-Talk-Tastenkürzel umschalten",
+            "toggleOverlayKeybind": "Overlay-Tastenkürzel umschalten",
+            "toggleDeafKeybind": "Audioausgabe-Tastenkürzel umschalten"
+        },
+        "wsKilled": {
+            "description": "Die Websocket Verbindung zum Server wurde unterbrochen. Dies geschieht normalerweise, wenn du die Website in einem anderen Tab öffnest.",
+            "reconnect": "Erneut verbinden"
+        },
+        "deviceNotSupported": {
+            "notSupported": "Dein Gerät wird aktuell nicht unterstützt. Du kannst ein",
+            "linkText": "Issue auf GitHub",
+            "addSupport": "erstellen und ich werde versuchen, die Unterstützung für dein Gerät hinzuzufügen."
+        },
+        "inviteButton": {
+            "invited": "Eingeladen",
+            "inviteToRoom": "Zum Raum einladen"
+        },
+        "followingOnline": {
+            "people": "Leute",
+            "online": "ONLINE",
+            "noOnline": "Aktuell sind keine deiner Freunde online.",
+            "showMore": "Zeige mehr"
+        },
+        "upcomingRoomsCard": {
+            "upcomingRooms": "Anstehende Räume",
+            "exploreMoreRooms": "Finde weitere Räume"
+        },
+        "search": {
+            "placeholder": "Suche nach Räumen, Benutzern oder Kategorien",
+            "placeholderShort": "Suche"
+        },
+        "settingsDropdown": {
+            "profile": "Profil",
+            "language": "Sprache",
+            "reportABug": "Melde einen Fehler",
+            "useOldVersion": "Benutze alte Version",
+            "logOut": {
+                "button": "Abmelden",
+                "modalSubtitle": "Möchtest du dich wirklich abmelden?"
+            },
+            "debugAudio": {
+                "debugAudio": "Ton debuggen",
+                "stopDebugger": "Stoppe Debugger"
+            },
+            "downloadApp": "App herunterladen",
+            "developer": "Entwickler Einstellungen"
+        },
+        "userBadges": {
+            "dhStaff": "DogeHouse Staff",
+            "dhContributor": "DogeHouse Contributor"
+        },
+        "messagesDropdown": {
+            "title": "Nachrichten",
+            "showMore": "Zeige mehr",
+            "noMessages": "Keine neue Nachrichten"
+        }
+    },
+    "modules": {
+        "_comment": "Modules UI Internationalization Strings",
+        "scheduledRooms": {
+            "title": "Geplante Räume",
+            "noneFound": "Nicht gefunden",
+            "allRooms": "Alle geplanten Räume",
+            "myRooms": "Meine geplanten Räume",
+            "scheduleRoomHeader": "Plane einen Raum",
+            "startRoom": "Raum starten",
+            "modal": {
+                "needsFuture": "Zeitpunkt muss in der Zukunft liegen",
+                "roomName": "Name des Raums",
+                "minLength": "minimale Länge: 2",
+                "roomDescription": "Raumbeschreibung"
+            },
+            "tommorow": "Morgen",
+            "today": "Heute",
+            "deleteModal": {
+                "areYouSure": "Möchtest du diesen geplanten Raum wirklich löschen?"
+            }
+        },
+        "roomChat": {
+            "title": "Chat",
+            "emotesSoon": "[Emotes kommen bald]",
+            "bannedAlert": "Du wurdest aus dem Chat ausgeschlossen",
+            "waitAlert": "Du musst eine Sekunde warten, bevor du eine weitere Nachricht schreiben kannst",
+            "search": "Suchen",
+            "searchResults": "Suchergebnisse",
+            "recent": "Häufig verwendet",
+            "sendMessage": "Eine Nachricht schicken",
+            "whisper": "Flüstern",
+            "welcomeMessage": "Willkommen im Chat!",
+            "roomDescription": "Raumbeschreibung",
+            "disabled": "Der Chat wurde vom Raum ausgeschaltet",
+            "messageDeletion": {
+                "message": "Nachicht",
+                "retracted": "zurückgezogen",
+                "deleted": "gelöscht"
+            }
+        },
+        "roomStatus": {
+            "fuelingRocket": "Rakete wird getankt!",
+            "takingOff": "Am Abheben",
+            "inSpace": "Im Weltall",
+            "approachingMoon": "Nähert sich dem Mond!",
+            "lunarDoge": "Lunar doge",
+            "approachingSun": "Nähert sich der Sonne!",
+            "solarDoge": "Solar doge",
+            "approachingGalaxy": "Nähert sich einer Galaxie!",
+            "galacticDoge": "Galactic Doge",
+            "spottedLife": "Planet mit Leben gefunden!"
+        },
+        "feed": { "yourFeed": "Dein Feed" }
+    }
+}

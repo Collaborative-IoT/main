@@ -1,0 +1,398 @@
+{
+    "_comment": "if you change this file, do: yarn i18",
+    "common": {
+        "loadMore": "laadi rohkem",
+        "loading": "laadib...",
+        "noUsersFound": "ühtegi kasutajat ei leitud",
+        "ok": "ok",
+        "yes": "jah",
+        "no": "ei",
+        "cancel": "tühista",
+        "save": "salvesta",
+        "edit": "muuda",
+        "delete": "kustuta",
+        "joinRoom": "liitu ruumiga",
+        "copyLink": "kopeeri link",
+        "copied": "kopeeritud",
+        "formattedIntlDate": "{{date, intlDate}}",
+        "formattedIntlTime": "{{time, intlTime}}",
+        "requestPermissions": "Pange tähele, et DogeHouse'i käitamine ilma juurdepääsulubadeta võib põhjustada soovimatuid vigu",
+        "copy": "Copy",
+        "error": "Error"
+    },
+    "header": {
+        "_comment": "Main Header UI Internationalization Strings",
+        "title": "DogeHouse",
+        "mutedTitle": "Vaigistatud | DogeHouse",
+        "deafenedTitle": "Deafened | DogeHouse",
+        "dashboard": "Dashboard",
+        "connectionTaken": "Connection Taken"
+    },
+    "footer": {
+        "_comment": "Main Footer UI Internationalization Strings",
+        "link_1": "Ajalugu",
+        "link_2": "Discord",
+        "link_3": "Teata veast"
+    },
+    "pages": {
+        "_comment": "Respective Page UI Internationalization Strings",
+        "admin": {
+            "ban": "bänni",
+            "userStaffandContrib": "User Staff & Contributions",
+            "staff": "Staff: ",
+            "contributions": "Contributions",
+            "username": "Username",
+            "usrStaff": "User Staff",
+            "usrContributions": "User Contributions",
+            "reason": "reason",
+            "usernamePlaceholder": "username to perform actions on"
+        },
+        "followingOnlineList": {
+            "listHeader": "Kasutajad, keda jälgid ja kes ei ole privaatses ruumis",
+            "currentRoom": "praegu sees:",
+            "startPrivateRoom": "loo nendega privaatne ruum",
+            "title": "People"
+        },
+        "followList": {
+            "followHim": "jälgi",
+            "followingHim": "jälgid",
+            "title": "People",
+            "followingNone": "Not following anyone",
+            "noFollowers": "No followers"
+        },
+        "home": {
+            "createRoom": "Loo ruum",
+            "refresh": "Värskenda",
+            "editRoom": "Edit Room",
+            "desktopAlert": "Download the DogeHouse desktop app today!"
+        },
+        "inviteList": {
+            "roomGone": "ruum läinud, mine tagasi",
+            "shareRoomLink": "jaga link ruumi",
+            "inviteFollowers": "Saad kutsuda oma jälgijaid, kes on hetkel aktiivsed:",
+            "whenFollowersOnline": "Teie aktiivsed jälgijad ilmuvad siia"
+        },
+        "login": {
+            "headerText": "Viime häälevestlused kuule 🚀",
+            "featureText_1": "Tume teema",
+            "featureText_2": "Avatud registreerimised",
+            "featureText_3": "Platvormidevaheline toetus",
+            "featureText_4": "Avatud lähtekoodiga",
+            "featureText_5": "Tekstivestlus",
+            "featureText_6": "Töötab Doge'i jõul",
+            "loginGithub": "Logi GitHub'iga",
+            "loginTwitter": "Logi Twitter'iga",
+            "createTestUser": "Loo test-kasutaja",
+            "loginDiscord": "Login with Discord"
+        },
+        "myProfile": {
+            "logout": "logi välja",
+            "probablyLoading": "ilmselt laadib...",
+            "voiceSettings": "mine häälesätetesse",
+            "overlaySettings": "go to overlay settings",
+            "soundSettings": "mine helisätetesse",
+            "deleteAccount": "kustuta konto",
+            "couldNotFindUser": "Sorry, we could not find that user",
+            "privacySettings": "Privacy settings"
+        },
+        "notFound": {
+            "whoopsError": "Oih! See leht läks vestluses kaduma.",
+            "goHomeMessage": "Pole vaja muretseda. Sa saad",
+            "goHomeLinkText": "minna koju"
+        },
+        "room": {
+            "speakers": "Kõnelejad",
+            "requestingToSpeak": "Kõnelemise taotlemine",
+            "listeners": "Kuulajad",
+            "allowAll": "Luba kõik",
+            "allowAllConfirm": "Oled sa kindel? See tegevus lubab kõigil {{count}} taotlejal rääkida"
+        },
+        "searchUser": { "search": "otsi..." },
+        "soundEffectSettings": {
+            "header": "Helid",
+            "title": "Sound Settings",
+            "playSound": "Play Sound"
+        },
+        "viewUser": {
+            "editProfile": "muuda profiili",
+            "followsYou": "jälgib sind",
+            "followers": "jälgijaid",
+            "following": "jälgib",
+            "followHim": "jälgi",
+            "followingHim": "jälgid",
+            "copyProfileUrl": "copy profile url",
+            "urlCopied": "URL copied to clipboard",
+            "unfollow": "Unfollow",
+            "about": "About",
+            "bot": "Bot",
+            "profileTabs": {
+                "about": "About",
+                "rooms": "Rooms",
+                "scheduled": "Scheduled",
+                "recorded": "Recorded",
+                "clips": "Clips",
+                "admin": "Admin"
+            },
+            "block": "Block",
+            "unblock": "Unblock",
+            "sendDM": "Send DM",
+            "aboutSuffix": "",
+            "errors": {
+                "blocked": "This user has blocked you.",
+                "default": "Whoops! We couldn't load this user."
+            }
+        },
+        "voiceSettings": {
+            "header": "Häälesätted",
+            "mic": "mikrofon:",
+            "permissionError": "ühtegi mikrofoni ei leitud; mikrofone ei ole ühendatud või veebilehel puudub õigus neid kasutada.",
+            "refresh": "värskenda mikrofonide loendit",
+            "volume": "helitugevus:",
+            "title": "Voice Settings"
+        },
+        "overlaySettings": {
+            "input": {
+                "errorMsg": "Invalid app title",
+                "label": "Enter App Title"
+            },
+            "header": "Ülekatte Sätted"
+        },
+        "download": {
+            "starting": "Starting download...",
+            "failed": "Could not auto-download, please try again later",
+            "visit_gh": "Visit Github Releases",
+            "prompt": "Click on the button below to start download",
+            "download_now": "Download Now",
+            "download_for": "Download for %platform% (%ext%)"
+        },
+        "privacySettings": {
+            "title": "Privacy Settings",
+            "header": "Privacy Settings",
+            "whispers": { "label": "Whispers", "on": "On", "off": "Off" }
+        },
+        "botEdit": {
+            "yourBots": "Your Bots",
+            "bots": "Bots",
+            "title": "Bot Information",
+            "apiKey": "ApiKey",
+            "regenerate": "Regenerate",
+            "reveal": "Click to reveal ApiKey"
+        }
+    },
+    "components": {
+        "_comment": "Component UI Internationalization Strings",
+        "avatar": {},
+        "backBar": {},
+        "blockedFromRoomUsers": {
+            "header": "Bännitud kasutajad",
+            "unban": "tühista bänn",
+            "noBans": "kedagi pole veel bännitud"
+        },
+        "bottomVoiceControl": {
+            "leaveCurrentRoomBtn": "Lahku ruumist",
+            "confirmLeaveRoom": "Kas oled kindel, et soovid ruumist lahkuda?",
+            "leave": "Lahku",
+            "inviteUsersToRoomBtn": "Kutsu ruumi kasutajaid",
+            "invite": "Kutsu",
+            "toggleMuteMicBtn": "Mikrofoni lüliti",
+            "mute": "Vaigista mikrofon",
+            "unmute": "Ava mikrofon",
+            "makeRoomPublicBtn": "Tee ruum avalikuks!",
+            "settings": "Sätted",
+            "speaker": "Kõneleja",
+            "listener": "Kuulaja",
+            "chat": "Vestlus",
+            "toggleDeafMicBtn": "Toggle Deafen",
+            "deafen": "Deafen",
+            "undeafen": "Undeafen"
+        },
+        "deviceNotSupported": {
+            "notSupported": "Sinu seadet ei toetata veel. Saad luua",
+            "linkText": "GitHub'is veateate",
+            "addSupport": "ning üritame lisada toe teie seadmele."
+        },
+        "inviteButton": {
+            "invited": "kutsutud",
+            "inviteToRoom": "kutsu ruumi"
+        },
+        "micPermissionBanner": {
+            "permissionDenied": "Ligipääs mikrofonile keelatud (võib-olla peate vaatama brauseri sätteid ning lehte värskendama)",
+            "dismiss": "tühista",
+            "tryAgain": "proovi uuesti"
+        },
+        "keyboardShortcuts": {
+            "setKeybind": "määra klahvistik",
+            "listening": "kuulab",
+            "toggleMuteKeybind": "vaigistamise klahvistik",
+            "togglePushToTalkKeybind": "push-to-talk klahvistik",
+            "toggleOverlayKeybind": "toggle overlay keybind",
+            "toggleDeafKeybind": "Toggle deafen keybind"
+        },
+        "userVolumeSlider": {
+            "noAudioMessage": "pole ühtegi audiotarbijat mingil põhjusel"
+        },
+        "addToCalendar": { "add": "Lisa kalendrisse" },
+        "wsKilled": {
+            "description": "Veebipesa suleti serveri poolt. See juhtub tavaliselt siis, kui avad veebilehe teisel vahelehel.",
+            "reconnect": "ühenda uuesti"
+        },
+        "modals": {
+            "createRoomModal": {
+                "public": "avalik",
+                "private": "privaatne",
+                "roomName": "ruumi nimi",
+                "roomDescription": "ruumi kirjeldus",
+                "descriptionError": "max. pikkus 500",
+                "nameError": "peab olema 2 kuni 60 tähemärki pikk",
+                "subtitle": "Fill the following fields to start a new room"
+            },
+            "invitedToJoinRoomModal": {
+                "newRoomCreated": "Uus ruum loodud",
+                "roomInviteFrom": "Ruumi kutse kasutajalt",
+                "justStarted": "Nad just alustasid",
+                "likeToJoin": ", kas tahad liituda?",
+                "inviteReceived": "sind on kutsutud ruumi"
+            },
+            "editProfileModal": {
+                "usernameTaken": "kasutajanimi on juba kasutusel",
+                "avatarUrlError": "Vigane pilt",
+                "avatarUrlLabel": "Github/Twitter/Discord avatari URL",
+                "displayNameError": "2 kuni 50 tähemärki pikk",
+                "displayNameLabel": "Kuvatav nimi",
+                "usernameError": "4 kuni 15 tähemärki pikk ja ainult tähenumbriline/alakriips",
+                "usernameLabel": "Kasutajanimi",
+                "bioError": "maksimum pikkus: 160 tähemärki",
+                "bioLabel": "Bio",
+                "bannerUrlLabel": "Twitter banner URL"
+            },
+            "profileModal": {
+                "blockUserConfirm": "Kas tahad kindlasti selle kasutaja liitumist teie ruumidesse keelata?",
+                "blockUser": "Blokeeri kasutaja",
+                "makeMod": "Tee moderaatoriks",
+                "unmod": "eemalda moderaatoriõigus",
+                "addAsSpeaker": "lisa kõnelejana",
+                "moveToListener": "liiguta kuulajatesse",
+                "banFromChat": "bänni vestlusest",
+                "banFromRoom": "bänni ruumist",
+                "goBackToListener": "mine tagasi kuulajatesse",
+                "deleteMessage": "kustuta sõnum",
+                "makeRoomCreator": "make room admin",
+                "unBanFromChat": "Unban from Chat",
+                "banIPFromRoom": "Ban IP from Room"
+            },
+            "roomSettingsModal": {
+                "requirePermission": "nõua luba rääkimiseks",
+                "makePublic": "tee ruum avalikuks",
+                "makePrivate": "tee ruum privaatseks",
+                "renamePublic": "Säti avaliku ruumi nimi",
+                "renamePrivate": "Säti privaatse ruumi nimi",
+                "chatDisabled": "disable chat",
+                "chatCooldown": "Chat Cooldown (milliseconds)",
+                "chat": {
+                    "label": "Chat",
+                    "enabled": "Enabled",
+                    "disabled": "Disabled",
+                    "followerOnly": "Follower Only"
+                }
+            },
+            "createBotModal": {
+                "usernameTaken": "Username is taken",
+                "subtitle": "Please fill the details below to create your bot",
+                "title": "Create Bot"
+            }
+        },
+        "followingOnline": {
+            "people": "People",
+            "online": "ONLINE",
+            "noOnline": "You have 0 friends online right now",
+            "showMore": "Show more"
+        },
+        "upcomingRoomsCard": {
+            "upcomingRooms": "Upcoming rooms",
+            "exploreMoreRooms": "Explore More Rooms"
+        },
+        "search": {
+            "placeholder": "Search for rooms, users or categories",
+            "placeholderShort": "Search"
+        },
+        "settingsDropdown": {
+            "profile": "Profile",
+            "language": "Language",
+            "reportABug": "Report A Bug",
+            "useOldVersion": "Use Old Version",
+            "logOut": {
+                "button": "Log out",
+                "modalSubtitle": "Are you sure you want to logout?"
+            },
+            "debugAudio": {
+                "debugAudio": "Debug Audio",
+                "stopDebugger": "Stop Debugger"
+            },
+            "downloadApp": "Download App",
+            "developer": "Developer Settings"
+        },
+        "userBadges": {
+            "dhStaff": "DogeHouse Staff",
+            "dhContributor": "DogeHouse Contributor"
+        },
+        "messagesDropdown": {
+            "title": "Messages",
+            "showMore": "Show More",
+            "noMessages": "No new messages"
+        }
+    },
+    "modules": {
+        "_comment": "Modules UI Internationalization Strings",
+        "scheduledRooms": {
+            "title": "Ajastatud ruumid",
+            "noneFound": "ühtegi ei leitud",
+            "allRooms": "kõik ajastatud ruumid",
+            "myRooms": "minu ajastatud ruumid",
+            "scheduleRoomHeader": "Ajasta ruum",
+            "startRoom": "Alusta ruum",
+            "modal": {
+                "needsFuture": "peab olema tulevikus",
+                "roomName": "ruumi nimi",
+                "roomDescription": "kirjeldus",
+                "minLength": "min. pikkus 2"
+            },
+            "tommorow": "TOMMOROW",
+            "today": "TODAY",
+            "deleteModal": {
+                "areYouSure": "Are you sure you want to delete this scheduled room?"
+            }
+        },
+        "roomChat": {
+            "title": "Vestlus",
+            "emotesSoon": "[emojid varsti]",
+            "bannedAlert": "Sind bänniti vestlusest",
+            "waitAlert": "Pead ootama sekundi enne, kui saad sõnumit saata",
+            "search": "Otsing",
+            "searchResults": "Otsingu tulemused",
+            "recent": "Enim kasutatud",
+            "sendMessage": "Saada sõnum",
+            "whisper": "Sosista",
+            "welcomeMessage": "Tere tulemast vestlusesse!",
+            "roomDescription": "ruumi kirjeldus",
+            "disabled": "room chat has been disabled",
+            "messageDeletion": {
+                "message": "message",
+                "retracted": "retracted",
+                "deleted": "deleted"
+            }
+        },
+        "roomStatus": {
+            "fuelingRocket": "Tankimas raketti",
+            "takingOff": "Startimas",
+            "inSpace": "Kosmoses",
+            "approachingMoon": "Lähenemas Kuule",
+            "lunarDoge": "Kuu-doge",
+            "approachingSun": "Lähenemas Päikesele",
+            "solarDoge": "Päikese-Doge",
+            "approachingGalaxy": "Lähenemas galaktikale",
+            "galacticDoge": "Galaktiline-Doge",
+            "spottedLife": "Planeet eluga"
+        },
+        "feed": { "yourFeed": "Your Feed" }
+    }
+}

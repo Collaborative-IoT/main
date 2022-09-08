@@ -1,0 +1,5 @@
+_
+.env.local
+.idea
+sw.js.map
+node_modules

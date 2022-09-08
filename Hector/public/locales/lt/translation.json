@@ -1,0 +1,398 @@
+{
+    "_comment": "if you change this file, do: yarn i18",
+    "common": {
+        "loadMore": "Pakrauti daugiau",
+        "loading": "Kraunasi...",
+        "noUsersFound": "Vartotojų nerasta!",
+        "ok": "Gerai",
+        "yes": "Taip",
+        "no": "Ne",
+        "cancel": "Atšaukti",
+        "save": "Išsaugoti",
+        "edit": "Redaguoti",
+        "delete": "Ištrinti",
+        "joinRoom": "Prisijungti prie kambario",
+        "copyLink": "Nukopijuoti nuorodą",
+        "copied": "Nukopijuota",
+        "formattedIntlDate": "{{date, intlDate}}",
+        "formattedIntlTime": "{{time, intlTime}}",
+        "requestPermissions": "Please note running DogeHouse without accessibility permissions may cause unwanted errors",
+        "copy": "Copy",
+        "error": "Error"
+    },
+    "header": {
+        "_comment": "Main Header UI Internationalization Strings",
+        "title": "DogeHouse",
+        "mutedTitle": "Nutildyta | DogeHouse",
+        "deafenedTitle": "Deafened | DogeHouse",
+        "dashboard": "Dashboard",
+        "connectionTaken": "Connection Taken"
+    },
+    "footer": {
+        "_comment": "Main Footer UI Internationalization Strings",
+        "link_1": "Kilmės istorija",
+        "link_2": "Discord",
+        "link_3": "Pranešti apie klaidą"
+    },
+    "pages": {
+        "_comment": "Respective Page UI Internationalization Strings",
+        "admin": {
+            "ban": "Užblokuoti",
+            "userStaffandContrib": "User Staff & Contributions",
+            "staff": "Staff: ",
+            "contributions": "Contributions",
+            "username": "Username",
+            "usrStaff": "User Staff",
+            "usrContributions": "User Contributions",
+            "reason": "reason",
+            "usernamePlaceholder": "username to perform actions on"
+        },
+        "followingOnlineList": {
+            "listHeader": "Sąrašas žmonių kurie nėra tavo privačiame kambaryje, tačiau tave seka",
+            "currentRoom": "Šiuo metu yra:",
+            "startPrivateRoom": "Sukurti privatų kambarį su jais",
+            "title": "People"
+        },
+        "followList": {
+            "followHim": "follow",
+            "followingHim": "following",
+            "title": "People",
+            "followingNone": "Not following anyone",
+            "noFollowers": "No followers"
+        },
+        "home": {
+            "createRoom": "Sukurti kambarį",
+            "refresh": "Refresh",
+            "editRoom": "Edit Room",
+            "desktopAlert": "Download the DogeHouse desktop app today!"
+        },
+        "inviteList": {
+            "roomGone": "Kambario nebėra, grįžkite atgal",
+            "shareRoomLink": "Pasidalinkite nuoroda į kambarį",
+            "inviteFollowers": "Galite pakviesti savo sekėjus kurie yra prisijungę:",
+            "whenFollowersOnline": "Kada tavo sekėjai yra prisijungę, jie pasirodys čia."
+        },
+        "login": {
+            "headerText": "Balso pokalbių nukėlimas į mėnulį 🚀",
+            "featureText_1": "Tamsi tema",
+            "featureText_2": "Atidarykite registraciją",
+            "featureText_3": "Kelių platformų palaikymas",
+            "featureText_4": "Atviro kodo",
+            "featureText_5": "Pokalbių kambarys",
+            "featureText_6": "Tvarkomas Doge",
+            "loginGithub": "Prisijunkite su GitHub",
+            "loginTwitter": "Prisijunkite su Twitter",
+            "createTestUser": "Sukurkite testavimo naudotoją",
+            "loginDiscord": "Login with Discord"
+        },
+        "myProfile": {
+            "logout": "Atsijungti",
+            "probablyLoading": "Tikriausiai kraunasi...",
+            "voiceSettings": "Eiti į balso nustatymus",
+            "soundSettings": "Eiti į garso nustatymus",
+            "deleteAccount": "Ištrinti vartotoją",
+            "overlaySettings": "go to overlay settings",
+            "couldNotFindUser": "Sorry, we could not find that user",
+            "privacySettings": "Privacy settings"
+        },
+        "notFound": {
+            "whoopsError": "Uppss! Šis puslapis buvo prarastas pokalbyje",
+            "goHomeMessage": "Nesijaudink. Tu gali",
+            "goHomeLinkText": "grįžti namo"
+        },
+        "room": {
+            "speakers": "Kalbėtojai",
+            "requestingToSpeak": "Prašo kalbėti",
+            "listeners": "Klausytojai",
+            "allowAll": "Allow all",
+            "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
+        },
+        "searchUser": { "search": "Ieškoma..." },
+        "soundEffectSettings": {
+            "header": "Garsai",
+            "title": "Sound Settings",
+            "playSound": "Play Sound"
+        },
+        "viewUser": {
+            "editProfile": "Redaguoti profilį",
+            "followsYou": "Seka tave",
+            "followers": "Sekėjai",
+            "following": "Tu seki",
+            "followHim": "follow",
+            "followingHim": "following",
+            "copyProfileUrl": "copy profile url",
+            "urlCopied": "URL copied to clipboard",
+            "unfollow": "Unfollow",
+            "about": "About",
+            "bot": "Bot",
+            "profileTabs": {
+                "about": "About",
+                "rooms": "Rooms",
+                "scheduled": "Scheduled",
+                "recorded": "Recorded",
+                "clips": "Clips",
+                "admin": "Admin"
+            },
+            "block": "Block",
+            "unblock": "Unblock",
+            "sendDM": "Send DM",
+            "aboutSuffix": "",
+            "errors": {
+                "blocked": "This user has blocked you.",
+                "default": "Whoops! We couldn't load this user."
+            }
+        },
+        "voiceSettings": {
+            "header": "Garso nustatymai",
+            "mic": "mikrofonas:",
+            "permissionError": "nerasta mikrofonų, jūs arba neprijungėte tinklo, arba nedavėte šiai svetainei leidimo.",
+            "refresh": "Atnaujinti mikrofonų sąrašą",
+            "volume": "Garsas:",
+            "title": "Voice Settings"
+        },
+        "overlaySettings": {
+            "input": {
+                "errorMsg": "Invalid app title",
+                "label": "Enter App Title"
+            },
+            "header": "Overlay Settings"
+        },
+        "download": {
+            "starting": "Starting download...",
+            "failed": "Could not auto-download, please try again later",
+            "visit_gh": "Visit Github Releases",
+            "prompt": "Click on the button below to start download",
+            "download_now": "Download Now",
+            "download_for": "Download for %platform% (%ext%)"
+        },
+        "privacySettings": {
+            "title": "Privacy Settings",
+            "header": "Privacy Settings",
+            "whispers": { "label": "Whispers", "on": "On", "off": "Off" }
+        },
+        "botEdit": {
+            "yourBots": "Your Bots",
+            "bots": "Bots",
+            "title": "Bot Information",
+            "apiKey": "ApiKey",
+            "regenerate": "Regenerate",
+            "reveal": "Click to reveal ApiKey"
+        }
+    },
+    "components": {
+        "_comment": "Component UI Internationalization Strings",
+        "avatar": {},
+        "backBar": {},
+        "blockedFromRoomUsers": {
+            "header": "Užblokuoti vartotojai",
+            "unban": "Atblokuoti",
+            "noBans": "Niekas nebuvo užblokuotas kol kas"
+        },
+        "bottomVoiceControl": {
+            "leaveCurrentRoomBtn": "Išeiti iš dabartinio kambario",
+            "confirmLeaveRoom": "Ar tikrai norite išeiti?",
+            "leave": "Išeiti",
+            "inviteUsersToRoomBtn": "Pakviesti vartotojus į kambarį",
+            "invite": "Pakviesti",
+            "toggleMuteMicBtn": "Perjungti nutildytą mikrofoną",
+            "mute": "Nutildyti",
+            "unmute": "įjungti garsą",
+            "makeRoomPublicBtn": "Padaryk kambarį viešu!",
+            "settings": "Nustatymai",
+            "speaker": "Kalbėtojas",
+            "listener": "Klausytojai",
+            "chat": "Chat",
+            "toggleDeafMicBtn": "Toggle Deafen",
+            "deafen": "Deafen",
+            "undeafen": "Undeafen"
+        },
+        "deviceNotSupported": {
+            "notSupported": "Jūsų įrenginys šiuo metu nepalaikomas.",
+            "linkText": "Problema su GitHub",
+            "addSupport": "Pasistengsiu suteikti galimybę Jūsų įrenginiui"
+        },
+        "inviteButton": {
+            "invited": "Pakviestas",
+            "inviteToRoom": "Pakviesti į kambarį"
+        },
+        "micPermissionBanner": {
+            "permissionDenied": "Leidimas atmestas bandant pasiekti jūsų mikrofoną (gali tekti pereiti į naršyklės nustatymus ir atnaujinti puslapį)",
+            "dismiss": "atmesti",
+            "tryAgain": "Bandykite iš naujo"
+        },
+        "keyboardShortcuts": {
+            "setKeybind": "nustatyti klavišą",
+            "listening": "Klausomasi",
+            "toggleMuteKeybind": "perjungti nutildytą klavišą",
+            "togglePushToTalkKeybind": "perjungti tiesioginio ryšio klavišą",
+            "toggleOverlayKeybind": "toggle overlay keybind",
+            "toggleDeafKeybind": "Toggle deafen keybind"
+        },
+        "userVolumeSlider": {
+            "noAudioMessage": "dėl kokių nors priežasčių nėra garso vartotojo"
+        },
+        "addToCalendar": { "add": "Pridėti į kalendorių" },
+        "wsKilled": {
+            "description": "„Websocket“ užlaužtas serveris. Paprastai tai atsitinka, kai atidarote svetainę kitame skirtuke.",
+            "reconnect": "Prisijungti iš naujo"
+        },
+        "modals": {
+            "createRoomModal": {
+                "public": "Viešas",
+                "private": "Privatus",
+                "roomName": "Kambario pavadinimas",
+                "roomDescription": "Kambario aprašymas",
+                "descriptionError": "Didžiausias teksto ilgis yra 500 raidžių",
+                "nameError": "Turi būti nuo 2 iki 60 raidžių ilgio",
+                "subtitle": "Kad pradėtumėte kambarį, užpildykite formą"
+            },
+            "invitedToJoinRoomModal": {
+                "newRoomCreated": "Naujas kambarys sukurtas",
+                "roomInviteFrom": "Pakvietimas į kambarį nuo",
+                "justStarted": "Jie ką tik pradėjo",
+                "likeToJoin": ", Ar norėtum prisijungti?",
+                "inviteReceived": "Tu buvai pakviestas į"
+            },
+            "editProfileModal": {
+                "usernameTaken": "Vardas užimtas, panaudotas",
+                "avatarUrlError": "Negalima nuotrauka",
+                "avatarUrlLabel": "Github/Twitter/Discord avataro nuoroda",
+                "displayNameError": "Ilgis nuo 2 iki 50 simbolių",
+                "displayNameLabel": "Rodyti vardą",
+                "usernameError": "Ilgis nuo 4 iki 15 simbolių ir tik raidinis(arba skaitmeninis)/apatinis pabraukimas",
+                "usernameLabel": "Slapyvardis",
+                "bioError": "Didžiausias ilgis - 160 simbolių",
+                "bioLabel": "Bio",
+                "bannerUrlLabel": "Twitter banner URL"
+            },
+            "profileModal": {
+                "blockUserConfirm": "Ar tikrai norite užblokuoti šį vartotoją prisijungti prie bet kurio jūsų ateityje sukurto kambario?",
+                "blockUser": "Užblokuoti vartotoją",
+                "makeMod": "make mod",
+                "unmod": "unmod",
+                "addAsSpeaker": "Pridėti, kaip kalbėtoją",
+                "moveToListener": "Perkelti į klausytojus",
+                "banFromChat": "Užblokuoti iš pokalbio",
+                "banFromRoom": "Užblokuoti iš kambario",
+                "goBackToListener": "Gražinti atgal į klausytojus",
+                "deleteMessage": "Ištrinti šią žinutę",
+                "makeRoomCreator": "make room admin",
+                "unBanFromChat": "Unban from Chat",
+                "banIPFromRoom": "Ban IP from Room"
+            },
+            "roomSettingsModal": {
+                "requirePermission": "Reikalingas patvirtinimas kalbėti",
+                "makePublic": "Padaryti kambarį viešą",
+                "makePrivate": "Padaryti kambarį privatų",
+                "renamePublic": "Set public room name",
+                "renamePrivate": "Set private room name",
+                "chatDisabled": "disable chat",
+                "chatCooldown": "Chat Cooldown (milliseconds)",
+                "chat": {
+                    "label": "Chat",
+                    "enabled": "Enabled",
+                    "disabled": "Disabled",
+                    "followerOnly": "Follower Only"
+                }
+            },
+            "createBotModal": {
+                "usernameTaken": "Username is taken",
+                "subtitle": "Please fill the details below to create your bot",
+                "title": "Create Bot"
+            }
+        },
+        "followingOnline": {
+            "people": "Žmonės",
+            "online": "PRISIJUNGĘ",
+            "noOnline": "Nėra prisijungusių draugų",
+            "showMore": "Rodyti daugiau"
+        },
+        "upcomingRoomsCard": {
+            "upcomingRooms": "Būsimi kambariai",
+            "exploreMoreRooms": "Rodyti daugiau kambarių"
+        },
+        "search": {
+            "placeholder": "Ieškoti kambarių, vartotojų ar kategorijų",
+            "placeholderShort": "Search"
+        },
+        "settingsDropdown": {
+            "profile": "Profilis",
+            "language": "Kalba",
+            "reportABug": "Pranešti apie klaidą",
+            "useOldVersion": "Naudoti seną versiją",
+            "logOut": {
+                "button": "Atsijungti",
+                "modalSubtitle": "Ar tikrai norite atsijungti?"
+            },
+            "debugAudio": {
+                "debugAudio": "Debug Audio",
+                "stopDebugger": "Stop Debugger"
+            },
+            "downloadApp": "Download App",
+            "developer": "Developer Settings"
+        },
+        "userBadges": {
+            "dhStaff": "DogeHouse Staff",
+            "dhContributor": "DogeHouse Contributor"
+        },
+        "messagesDropdown": {
+            "title": "Messages",
+            "showMore": "Show More",
+            "noMessages": "No new messages"
+        }
+    },
+    "modules": {
+        "_comment": "Modules UI Internationalization Strings",
+        "scheduledRooms": {
+            "title": "Suplanuoti kambariai",
+            "noneFound": "Nieko nerasta",
+            "allRooms": "Visi suplanuoti kambariai",
+            "myRooms": "Mano suplanuoti kambariai",
+            "scheduleRoomHeader": "Suplanuoti kambarį",
+            "startRoom": "Pradėti kambarį",
+            "modal": {
+                "needsFuture": "Turi būti ateityje",
+                "roomName": "Kambario pavadinimas",
+                "minLength": "Mažiausias ilgis 2",
+                "roomDescription": "Kambario aprašymas"
+            },
+            "tommorow": "TOMMOROW",
+            "today": "TODAY",
+            "deleteModal": {
+                "areYouSure": "Are you sure you want to delete this scheduled room?"
+            }
+        },
+        "roomChat": {
+            "title": "Pokalbis",
+            "emotesSoon": "[emotes soon]",
+            "bannedAlert": "Buvai užblokuotas šiame kambaryje",
+            "waitAlert": "Prieš išsiųsdami kitą pranešimą, turite palaukti sekundę",
+            "search": "Ieškoti",
+            "searchResults": "Paieškos rezultatai",
+            "recent": "Dažniausiai naudojami",
+            "sendMessage": "Siųsti žinutę",
+            "whisper": "Pašnibšdėti",
+            "welcomeMessage": "Sveikas atvykęs į kambarį",
+            "roomDescription": "Kambario aprašymas",
+            "disabled": "room chat has been disabled",
+            "messageDeletion": {
+                "message": "message",
+                "retracted": "retracted",
+                "deleted": "deleted"
+            }
+        },
+        "roomStatus": {
+            "fuelingRocket": "Fueling rocket",
+            "takingOff": "Taking off",
+            "inSpace": "In space",
+            "approachingMoon": "Approaching moon",
+            "lunarDoge": "Lunar doge",
+            "approachingSun": "Approaching sun",
+            "solarDoge": "Solar doge",
+            "approachingGalaxy": "Approaching galaxy",
+            "galacticDoge": "Galactic Doge",
+            "spottedLife": "Planet with life spotted"
+        },
+        "feed": { "yourFeed": "Your Feed" }
+    }
+}

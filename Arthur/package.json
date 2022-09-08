@@ -1,0 +1,34 @@
+{
+  "name": "@collaborative/arthur",
+  "author": "Ronald Colyar",
+  "bugs": "https://github.com/Collaborative-IoT/Arthur/issues",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "collaborative-iot"
+  ],
+  "description": "The official Collaborative-IoT API client.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint src/",
+    "test": "jest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "isomorphic-ws": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  }
+}

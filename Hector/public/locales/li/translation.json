@@ -1,0 +1,398 @@
+{
+    "_comment": "if you change this file, do: yarn i18",
+    "common": {
+        "loadMore": "Mieer laaje",
+        "loading": "Laaje...",
+        "noUsersFound": "Gein gebroekers gevonge",
+        "ok": "Ok",
+        "yes": "Joa",
+        "no": "Nhee",
+        "cancel": "Annulere",
+        "save": "Opsjloan",
+        "edit": "Bewirke",
+        "delete": "Verwijdere",
+        "joinRoom": "Kamer ingoan",
+        "copyLink": "Link kopieeren",
+        "copied": "Gekopieerd",
+        "formattedIntlDate": "{{date, intlDate}}",
+        "formattedIntlTime": "{{time, intlTime}}",
+        "requestPermissions": "Please note running DogeHouse without accessibility permissions may cause unwanted errors",
+        "copy": "Copy",
+        "error": "Error"
+    },
+    "header": {
+        "_comment": "Main Header UI Internationalization Strings",
+        "title": "DogeHouse",
+        "mutedTitle": "Gemute | DogeHouse",
+        "deafenedTitle": "Deafened | DogeHouse",
+        "dashboard": "Dashboard",
+        "connectionTaken": "Connection Taken"
+    },
+    "footer": {
+        "_comment": "Main Footer UI Internationalization Strings",
+        "link_1": "Ontstoan",
+        "link_2": "Discord",
+        "link_3": "Probleem melde"
+    },
+    "pages": {
+        "_comment": "Respective Page UI Internationalization Strings",
+        "admin": {
+            "ban": "Banne",
+            "userStaffandContrib": "User Staff & Contributions",
+            "staff": "Staff: ",
+            "contributions": "Contributions",
+            "username": "Username",
+            "usrStaff": "User Staff",
+            "usrContributions": "User Contributions",
+            "reason": "reason",
+            "usernamePlaceholder": "username to perform actions on"
+        },
+        "followingOnlineList": {
+            "listHeader": "Liest van gebroekers die dich volgst mèr niet in inge perseunlijke kamer zitten.",
+            "currentRoom": "Op t moment in:",
+            "startPrivateRoom": "Sjtart inge perseunlijke kamer mit disè persoon",
+            "title": "People"
+        },
+        "followList": {
+            "followHim": "follow",
+            "followingHim": "following",
+            "title": "People",
+            "followingNone": "Not following anyone",
+            "noFollowers": "No followers"
+        },
+        "home": {
+            "createRoom": "Kamer make",
+            "refresh": "Verviesje",
+            "editRoom": "Edit Room",
+            "desktopAlert": "Download the DogeHouse desktop app today!"
+        },
+        "inviteList": {
+            "roomGone": "Kamer besjteed niet, gank teruk",
+            "shareRoomLink": "Link van disè kamer deijle",
+            "inviteFollowers": "Du kins dinge volgers die online sind oetneudigen",
+            "whenFollowersOnline": "Wannier dinge volgens online sind, komme ze hie te sjtoan."
+        },
+        "login": {
+            "headerText": "Veer bringe gesjprekke noa de moan 🚀",
+            "featureText_1": "Donkere Thema",
+            "featureText_2": "Open Registraties",
+            "featureText_3": "Cross-Platform Ondersjteuning",
+            "featureText_4": "Open Source",
+            "featureText_5": "Tekst Chat",
+            "featureText_6": "Mögelik gemak durch Doge",
+            "loginGithub": "Log in mit GitHub",
+            "loginTwitter": "Log in mit Twitter",
+            "createTestUser": "Maak inge test gebroeker",
+            "loginDiscord": "Login with Discord"
+        },
+        "myProfile": {
+            "logout": "Oetlogge",
+            "probablyLoading": "Waarschinlik aan t laaje...",
+            "voiceSettings": "Gank noa spraakinsjtellinge",
+            "soundSettings": "Gank noa geluidsinstjtellinge",
+            "deleteAccount": "Account verwijdere",
+            "overlaySettings": "go to overlay settings",
+            "couldNotFindUser": "Sorry, we could not find that user",
+            "privacySettings": "Privacy settings"
+        },
+        "notFound": {
+            "whoopsError": "Och nhee! Disè pagina is verlore gegange in t gesjprek.",
+            "goHomeMessage": "Mak niks oet. Du kins",
+            "goHomeLinkText": "teruk noa de homepagina"
+        },
+        "room": {
+            "speakers": "Sjprekers",
+            "requestingToSpeak": "Aanvroage om te sjpreke",
+            "listeners": "Loestereers",
+            "allowAll": "Allow all",
+            "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
+        },
+        "searchUser": { "search": "Zeucke..." },
+        "soundEffectSettings": {
+            "header": "Geluide",
+            "title": "Sound Settings",
+            "playSound": "Play Sound"
+        },
+        "viewUser": {
+            "editProfile": "Profiel bewirke",
+            "followsYou": "Volgt dich",
+            "followers": "Volgers",
+            "following": "Volgend",
+            "followHim": "follow",
+            "followingHim": "following",
+            "copyProfileUrl": "copy profile url",
+            "urlCopied": "URL copied to clipboard",
+            "unfollow": "Unfollow",
+            "about": "About",
+            "bot": "Bot",
+            "profileTabs": {
+                "about": "About",
+                "rooms": "Rooms",
+                "scheduled": "Scheduled",
+                "recorded": "Recorded",
+                "clips": "Clips",
+                "admin": "Admin"
+            },
+            "block": "Block",
+            "unblock": "Unblock",
+            "sendDM": "Send DM",
+            "aboutSuffix": "",
+            "errors": {
+                "blocked": "This user has blocked you.",
+                "default": "Whoops! We couldn't load this user."
+            }
+        },
+        "voiceSettings": {
+            "header": "Sjpraak",
+            "mic": "Microfoon:",
+            "permissionError": "Ging microfoon gevonge, du hubs waarschinlik ging microfoon aangesjloate of ging toesjtimming gegive.",
+            "refresh": "Verviesj microfoonliest",
+            "volume": "Volume:",
+            "title": "Voice Settings"
+        },
+        "overlaySettings": {
+            "input": {
+                "errorMsg": "Invalid app title",
+                "label": "Enter App Title"
+            },
+            "header": "Overlay Settings"
+        },
+        "download": {
+            "starting": "Starting download...",
+            "failed": "Could not auto-download, please try again later",
+            "visit_gh": "Visit Github Releases",
+            "prompt": "Click on the button below to start download",
+            "download_now": "Download Now",
+            "download_for": "Download for %platform% (%ext%)"
+        },
+        "privacySettings": {
+            "title": "Privacy Settings",
+            "header": "Privacy Settings",
+            "whispers": { "label": "Whispers", "on": "On", "off": "Off" }
+        },
+        "botEdit": {
+            "yourBots": "Your Bots",
+            "bots": "Bots",
+            "title": "Bot Information",
+            "apiKey": "ApiKey",
+            "regenerate": "Regenerate",
+            "reveal": "Click to reveal ApiKey"
+        }
+    },
+    "components": {
+        "_comment": "Component UI Internationalization Strings",
+        "avatar": {},
+        "backBar": {},
+        "blockedFromRoomUsers": {
+            "header": "Gebanne Gebroekers",
+            "unban": "Unbanne",
+            "noBans": "Ginge is noch geband"
+        },
+        "bottomVoiceControl": {
+            "leaveCurrentRoomBtn": "Verloat huidige kamer",
+            "confirmLeaveRoom": "Wit se zeker dat ze weg wils goan?",
+            "leave": "Verloate",
+            "inviteUsersToRoomBtn": "Nudig gebroekers oet veur disè kamer",
+            "invite": "Oetneudigen",
+            "toggleMuteMicBtn": "Microfoon aan- of oetzitte",
+            "mute": "Mute",
+            "unmute": "Unmute",
+            "makeRoomPublicBtn": "Maak kamer veur ideringe!",
+            "settings": "Insjtellinge",
+            "speaker": "Sjpreker",
+            "listener": "Loestereer",
+            "chat": "Chat",
+            "toggleDeafMicBtn": "Toggle Deafen",
+            "deafen": "Deafen",
+            "undeafen": "Undeafen"
+        },
+        "deviceNotSupported": {
+            "notSupported": "Ding apparaat weurt neet ondersjteund. Du kins inge",
+            "linkText": "issue op GitHub",
+            "addSupport": "maken en ich zal ondersjteuning veur ding apparaat probeere toe te voegen."
+        },
+        "inviteButton": {
+            "invited": "Oetgeneudigd",
+            "inviteToRoom": "Oetneudigen veur kamer"
+        },
+        "micPermissionBanner": {
+            "permissionDenied": "Du hubs ging toesjtimming gegive veur ding microfoon (du mos missjien in de insjtellinge van de browser goan en de pagina herlaaje)",
+            "dismiss": "Negeere",
+            "tryAgain": "Opnuj probere"
+        },
+        "keyboardShortcuts": {
+            "setKeybind": "Sjneltoets insjtelle",
+            "listening": "Aan t loestere",
+            "toggleMuteKeybind": "Sjakel mute sjneltoets",
+            "togglePushToTalkKeybind": "Sjakel push-to-talk sjneltoets",
+            "toggleOverlayKeybind": "toggle overlay keybind",
+            "toggleDeafKeybind": "Toggle deafen keybind"
+        },
+        "userVolumeSlider": {
+            "noAudioMessage": "Ging audioapparaat veur ing of andere reje"
+        },
+        "addToCalendar": { "add": "Voeg toe aan agenda" },
+        "wsKilled": {
+            "description": "WebSocket is gejstopt durch de server. Dit gebeurt vaak wannier de site opensjteet in inge andere tabblad.",
+            "reconnect": "Opnuj verbinge"
+        },
+        "modals": {
+            "createRoomModal": {
+                "public": "Veur ideringe",
+                "private": "Perseunlijk",
+                "roomName": "Kamer naam",
+                "roomDescription": "Kamer umsjrieving",
+                "descriptionError": "Maximale lingte van 500",
+                "nameError": "Moet tusje de 2 en 60 karakters lang seen",
+                "subtitle": "Fill the following fields to start a new room"
+            },
+            "invitedToJoinRoomModal": {
+                "newRoomCreated": "Neuje Kamer Gemak",
+                "roomInviteFrom": "Kamer Oetneudiging van",
+                "justStarted": "Ze sind net begonne",
+                "likeToJoin": ", wils ze mit doan?",
+                "inviteReceived": "Du bis oetgeneudigd veur"
+            },
+            "editProfileModal": {
+                "usernameTaken": "Gebroekersnaam al in gebroek",
+                "avatarUrlError": "Ongeldig plétje",
+                "avatarUrlLabel": "Github/Twitter/Discord avatar url",
+                "displayNameError": "2 tot 50 karakters",
+                "displayNameLabel": "Waargavenaam",
+                "usernameError": "4 tot 15 karakters en alling mer litters, ciefers en underscore",
+                "usernameLabel": "Gebroekersnaam",
+                "bioError": "Maximaal 160 karakters",
+                "bioLabel": "Bio",
+                "bannerUrlLabel": "Twitter banner URL"
+            },
+            "profileModal": {
+                "blockUserConfirm": "Wit ze zeker dat du disè gebroeker wills blokkere van alle kamers die du ooit noch gees maken?",
+                "blockUser": "Gebroeker blokkere",
+                "makeMod": "Beheerde make",
+                "unmod": "Beheerder verwijdere",
+                "addAsSpeaker": "Às spjreker toevoege",
+                "moveToListener": "Verplaatsj noa sjpreker",
+                "banFromChat": "Banne van de chat",
+                "banFromRoom": "Banne van de kamer",
+                "goBackToListener": "Gank terug noa loestereer",
+                "deleteMessage": "Disè bericht verwijdere",
+                "makeRoomCreator": "make room admin",
+                "unBanFromChat": "Unban from Chat",
+                "banIPFromRoom": "Ban IP from Room"
+            },
+            "roomSettingsModal": {
+                "requirePermission": "Toesjtimming neudig om te sjpreke",
+                "makePublic": "Maak kamer veur ideringe",
+                "makePrivate": "Maak kamer perseunlijke",
+                "renamePublic": "Set public room name",
+                "renamePrivate": "Set private room name",
+                "chatDisabled": "disable chat",
+                "chatCooldown": "Chat Cooldown (milliseconds)",
+                "chat": {
+                    "label": "Chat",
+                    "enabled": "Enabled",
+                    "disabled": "Disabled",
+                    "followerOnly": "Follower Only"
+                }
+            },
+            "createBotModal": {
+                "usernameTaken": "Username is taken",
+                "subtitle": "Please fill the details below to create your bot",
+                "title": "Create Bot"
+            }
+        },
+        "followingOnline": {
+            "people": "People",
+            "online": "ONLINE",
+            "noOnline": "You have 0 friends online right now",
+            "showMore": "Show more"
+        },
+        "upcomingRoomsCard": {
+            "upcomingRooms": "Upcoming rooms",
+            "exploreMoreRooms": "Explore More Rooms"
+        },
+        "search": {
+            "placeholder": "Search for rooms, users or categories",
+            "placeholderShort": "Search"
+        },
+        "settingsDropdown": {
+            "profile": "Profile",
+            "language": "Language",
+            "reportABug": "Report A Bug",
+            "useOldVersion": "Use Old Version",
+            "logOut": {
+                "button": "Log out",
+                "modalSubtitle": "Are you sure you want to logout?"
+            },
+            "debugAudio": {
+                "debugAudio": "Debug Audio",
+                "stopDebugger": "Stop Debugger"
+            },
+            "downloadApp": "Download App",
+            "developer": "Developer Settings"
+        },
+        "userBadges": {
+            "dhStaff": "DogeHouse Staff",
+            "dhContributor": "DogeHouse Contributor"
+        },
+        "messagesDropdown": {
+            "title": "Messages",
+            "showMore": "Show More",
+            "noMessages": "No new messages"
+        }
+    },
+    "modules": {
+        "_comment": "Modules UI Internationalization Strings",
+        "scheduledRooms": {
+            "title": "Geplende kamers",
+            "noneFound": "Ginge gevonge",
+            "allRooms": "Alle geplende kamers",
+            "myRooms": "Minge geplende kamers",
+            "scheduleRoomHeader": "Kamer plenne",
+            "startRoom": "Kamer sjtarte",
+            "modal": {
+                "needsFuture": "Mot in de toekomst seen",
+                "roomName": "Kamer naam",
+                "roomDescription": "Umsjrieving",
+                "minLength": "Minimale lingte van 2 karakters"
+            },
+            "tommorow": "TOMMOROW",
+            "today": "TODAY",
+            "deleteModal": {
+                "areYouSure": "Are you sure you want to delete this scheduled room?"
+            }
+        },
+        "roomChat": {
+            "title": "Chat",
+            "emotesSoon": "[Emotes binnekort]",
+            "bannedAlert": "Du bis van de chat geband",
+            "waitAlert": "Du mos ing seconde wachtte veurdat du wir ing bericht kins sjture.",
+            "search": "Zeucke",
+            "searchResults": "Zeukresultate",
+            "recent": "Vaak Gebroek",
+            "sendMessage": "Sjtuur ing bericht",
+            "whisper": "Floestere",
+            "welcomeMessage": "Welkom in de chat!",
+            "roomDescription": "Kamer umsjrieving",
+            "disabled": "room chat has been disabled",
+            "messageDeletion": {
+                "message": "message",
+                "retracted": "retracted",
+                "deleted": "deleted"
+            }
+        },
+        "roomStatus": {
+            "fuelingRocket": "Raket tanken",
+            "takingOff": "Opsjtiege",
+            "inSpace": "In de ruimte",
+            "approachingMoon": "Moan benajere",
+            "lunarDoge": "Moan hond",
+            "approachingSun": "Zon benajere",
+            "solarDoge": "Zonne hond",
+            "approachingGalaxy": "Heelal benajere",
+            "galacticDoge": "Galactische hond",
+            "spottedLife": "Planeet mit leefe gesjpot"
+        },
+        "feed": { "yourFeed": "Your Feed" }
+    }
+}
